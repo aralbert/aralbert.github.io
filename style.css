@@ -1,0 +1,29 @@
+/* style.css */
+
+/* Nagłówek */
+header {
+    background-image: url('pictures/header-background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Tekst w sekcji głównej */
+main h2 {
+    color: #007bff; /* Kolor akcentu */
+}
+
+main p {
+    color: #333;
+}
+
+/* Stopka */
+footer {
+    font-size: 0.9em;
+    background-color: #222;
+}
+
+.services p::before {
+    content: "• "; /* Kropka */
+    color: black; /* Kolor kropki */
+    margin-right: 5px; /* Odstęp między kropką a tekstem */
+}
